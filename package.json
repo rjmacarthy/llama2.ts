@@ -9,10 +9,19 @@
     "demo-bun": "node --experimental-loader=./t348.mjs llama2.ts stories15M.bin -i \"Once upon a time\"",
     "deterministic": "node --experimental-loader=./t348.mjs llama2.ts stories15M.bin -s 1 -t 0 -i \"Once upon a time\""
   },
-  "keywords": ["llama2","llm","ml"],
+  "keywords": [
+    "llama2",
+    "llm",
+    "ml"
+  ],
   "author": "wizzard0",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20"
+    "@types/lodash": "^4.17.4",
+    "@types/node": "^20.12.12"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mathjs": "^12.4.2"
   }
 }
