@@ -17,11 +17,6 @@
   "author": "wizzard0",
   "license": "ISC",
   "devDependencies": {
-    "@types/lodash": "^4.17.4",
     "@types/node": "^20.12.12"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "mathjs": "^12.4.2"
   }
 }
