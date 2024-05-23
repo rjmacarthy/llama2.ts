@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es2022",                                  /* bigint */
-    "module": "ES2022",                                /* Specify what module code is generated. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true
+  },
+  "include": ["lib", "types"],
+  "exclude": ["node_modules", "**/__tests__/*"]
 }
